@@ -1,11 +1,79 @@
-div {
-    background-color: red;
+* {
+  box-sizing: border-box;
 }
 
-p {
-    background-color: green;
+#backgroundVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
-button {
-    background-color: orange;
+#backgroundVideoTwo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(45%);
+}
+
+#audio {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  height: 25px;
+
+}
+
+.backgroundWrap {
+  background-color: rgba(59, 51, 63, 0.50);
+}
+
+.buttonStyle {
+  color: wheat;
+  text-align: center;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.notice {
+  font-size: 24px;
+  text-align: center;
+  background-color: rgba(50, 39, 56, 0.90);
+  padding: 24px;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: rgb(167, 204, 221);
+}
+
+.reminder {
+  font-size: 24px;
+  text-align: center;
+  background-color: rgba(50, 39, 56, 0.90);
+  padding: 24px;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: rgb(167, 204, 221);
+}
+
+h1 {
+  color: wheat;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
